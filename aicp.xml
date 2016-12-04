@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
-
-  <remote  name="aicp"
-           fetch="https://github.com/"
-           review="gerrit.aicp-rom.com"
-           revision="refs/heads/n7.1" />
-
-  <remote name="slim"
-           fetch="https://github.com/"
-           review="gerrit.slimroms.net" />
-
-  <remote name="omni"
-           fetch="https://github.com/"
-           review="gerrit.omnirom.org" />
-
-  <remote name="du"
-           fetch="https://github.com/"
-           review="http://gerrit.dirtyunicorns.com"
-           revision="refs/heads/n" />
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.0_r7" />
 
-  <default revision="refs/heads/cm-14.1"
-           remote="github"
+  <remote  name="github"
+           fetch=".." />
+
+  <remote  name="candy"
+           revision="refs/heads/c7.1"
+           fetch=".."
+           review="gerrit.bbqdroid.org" />
+
+  <remote  name="cm"
+           fetch=".."
+           review="review.cyanogenmod.org"
+           revision="refs/heads/cm-14.1" />
+
+  <remote  name="slim"
+           fetch=".."
+           review="review.slimroms.org"
+           revision="refs/heads/ng7.1" />
+
+  <remote  name="tm"
+           fetch="https://github.com/themuppets"
+           revision="cm-14.1" />
+
+  <remote  name="ts"
+           fetch="https://github.com/TeamSubstratum"
+           revision="master" />
+  
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/c7.1"
+           remote="candy"
            sync-c="true"
            sync-j="4" />
 
