@@ -50,16 +50,16 @@
   </project>
   <project path="candy" name="CandyRoms/candy" remote="candy" revision="c7.1" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
-  <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
+  <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1" />
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
-  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
-  <project path="packages/apps/CMParts" name="AICP/packages_apps_CMParts" remote="aicp" />
-  <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
-  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" revision="c7.1" />
+  <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1" />
+  <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1" />
+  <project path="packages/apps/SnapMusic" name="CandyRoms/packages_apps_SnapMusic" remote="candy" revision="c7.1" /> <!-- forked from Citrus-CAF/packages_apps_SnapdragonMusic -->
+  <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1" />
+  <project path="packages/apps/Viper4Android" name="CandyRoms/packages_apps_Viper4Android" remote="candy" revision="c7.1" />
+  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" revision="c7.1" />
 
   <!--  UBERTC  -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" groups="pdk,linux,arm" remote="bb" revision="master" />
@@ -121,7 +121,6 @@
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/WallpaperPicker" name="CyanogenMod/android_packages_apps_WallpaperPicker" />
@@ -537,7 +536,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
