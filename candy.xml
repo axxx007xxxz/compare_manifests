@@ -78,8 +78,8 @@
   <!-- CM Repos -->
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="cm" revision="cm-14.1" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-14.1" />
-  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" remote="cm" revision="cm-14.1" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" revision="cm-14.1" />
+  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" remote="cm" revision="cm-14.1" />
 
   <!-- Slim -->
   <project path="art" name="SlimRoms/android_art" remote="slim" />
