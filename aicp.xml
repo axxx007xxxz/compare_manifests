@@ -43,7 +43,12 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- AICP custom -->
+  <!-- Candy -->
+  <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="candy" revision="c7.1" /> <!-- forked from Slimroms -->
+  <project path="build" name="CandyRoms/build" remote="candy" revision="c7.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="candy" name="CandyRoms/candy" remote="candy" revision="c7.1" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
@@ -54,9 +59,6 @@
   <project path="packages/apps/CMParts" name="AICP/packages_apps_CMParts" remote="aicp" />
   <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <!--<project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" />
-  <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" />
-  <project path="packages/themes/HexoLibre" name="AICP/packages_themes_HexoLibre" groups="themes" /> -->
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
   <!--  UBERTC  -->
@@ -187,9 +189,6 @@
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
 
   <!-- aosp -->
-  <project path="build" name="AICP/build" groups="pdk,tradefed" remote="aicp" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
