@@ -51,7 +51,7 @@
   <project path="candy" name="CandyRoms/candy" remote="candy" revision="c7.1" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1" />
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
-  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="candy" revision="c7.1" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" revision="c7.1" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1" />
