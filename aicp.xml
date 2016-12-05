@@ -123,7 +123,7 @@
 
   <!-- CM -->
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm" revision="cm-14.1" />
-  <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cm" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" revision="cm-14.1" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="cm" revision="cm-14.1" />
