@@ -52,6 +52,7 @@
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="candy" revision="c7.1" />
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" remote="candy" revision="c7.1" />
   <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="candy" revision="c7.1" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="candy" revision="c7.1" />
@@ -59,6 +60,7 @@
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1" />
   <project path="packages/apps/Viper4Android" name="CandyRoms/packages_apps_Viper4Android" remote="candy" revision="c7.1" />
   <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" revision="c7.1" />
 
@@ -77,7 +79,6 @@
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
@@ -461,7 +462,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -610,7 +610,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
