@@ -58,6 +58,7 @@
   <project path="packages/apps/SnapMusic" name="CandyRoms/packages_apps_SnapMusic" remote="candy" revision="c7.1" /> <!-- forked from Citrus-CAF/packages_apps_SnapdragonMusic -->
   <project path="packages/apps/Snap" name="CandyRoms/packages_apps_Snap" remote="candy" revision="c7.1" />
   <project path="packages/apps/Viper4Android" name="CandyRoms/packages_apps_Viper4Android" remote="candy" revision="c7.1" />
+  <project path="system/core" name="CandyRoms/system_core" remote="candy" revision="c7.1" />
   <project path="system/sepolicy" name="CandyRoms/system_sepolicy" remote="candy" revision="c7.1" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="candy" revision="c7.1" />
 
@@ -609,7 +610,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
